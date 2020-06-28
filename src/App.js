@@ -16,7 +16,7 @@ function App() {
  
               <h1 className=”title red”>Your name here</h1>  
 
-              <br>  
+              <br />  
 
                      
 
