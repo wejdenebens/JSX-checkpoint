@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import imageInSrc from “./img/imageInSrc.png"
+import imageInSrc from './img/imageInSrc'
 
 
 function App() {
@@ -14,15 +14,14 @@ function App() {
     <div className="App">
             <div style={mystyle}>  
  
-              <h1 className=”title red”>Your name here</h1>  
+              <h1 className='title red'>Your name here</h1>  
 
-              <br>  
+              <br/>  
 
                      
 
-                    <img src={imageInSrc} /> <br></br>
-                    <img src=”/imageInPublic.jpg” /></br>
-
+                    <img src={imageInSrc} /> <br/><br/>
+                    <img src='/imageInPublic.jpg' /><br/>
 
 
             </div>  
